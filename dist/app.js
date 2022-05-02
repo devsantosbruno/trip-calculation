@@ -5691,20 +5691,62 @@ function withinMaxClamp(min, value, max) {
 
 /***/ }),
 
+/***/ "./myKeyAPI.js":
+/*!*********************!*\
+  !*** ./myKeyAPI.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var key;
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (key = 'AIzaSyBf2xA8rdCA6EpxWAEnE7HApGVm1IGBWzg');
+
+/***/ }),
+
 /***/ "./src/js/app.js":
 /*!***********************!*\
   !*** ./src/js/app.js ***!
   \***********************/
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _myKeyAPI__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../myKeyAPI */ "./myKeyAPI.js");
 __webpack_require__(/*! jquery */ "./node_modules/jquery/src/jquery.js");
 
 __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.esm.js");
 
-__webpack_require__(/*! @fortawesome/fontawesome-free */ "./node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"); // src/app.js
+__webpack_require__(/*! @fortawesome/fontawesome-free */ "./node_modules/@fortawesome/fontawesome-free/js/fontawesome.js");
 
+ // to work, comment the top line and add your key as the value of the line bottom(and uncomment, of course)
+// let myKey = 'YOUR_KEY'
+// Initialize and add the map
 
-alert('js rodando');
+function initMap() {
+  // The location of locationInitial
+  var locationInitial = {
+    lat: 43.65107,
+    lng: -79.347015
+  }; // The map, centered at locationInitial
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 8,
+    center: locationInitial
+  }); // The marker, positioned at locationInitial
+
+  var marker = new google.maps.Marker({
+    position: locationInitial,
+    map: map
+  });
+}
+
+window.initMap = initMap;
+var linkMap = "<script\nsrc=\"https://maps.googleapis.com/maps/api/js?key=".concat(_myKeyAPI__WEBPACK_IMPORTED_MODULE_0__["default"], "&callback=initMap\"\nasync\ndefer\n></script>");
+$('body').append(linkMap);
 
 /***/ }),
 
