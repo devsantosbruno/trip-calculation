@@ -28,13 +28,7 @@ Clone o projeto
 Vá para o diretório do projeto
 
 ```bash
-  cd my-project
-```
-
-Vá para branch develop
-
-```bash
-  git checkout develop
+  cd trip-calculation
 ```
 
 Instale as dependências
@@ -53,6 +47,8 @@ Compile a estilização do projeto
 ## Importante
 Por questões de segurança, a chave da API está oculta. Para utilizar a sua chave, você deverá seguir os passos em [app.js](https://github.com/devsantosbruno/trip-calculation/blob/develop/src/js/app.js).
 
+
 ## Contribuição
-Qualquer contribuição será muito bem-vinda, inclusive você poderá me ajudar criptografando a chave API, facilitando o uso do projeto.
+Qualquer contribuição será muito bem-vinda. Inclusive você pode me ajudar a criptografar a chave API, assim facilitará o uso do projeto sem muitos passos!
+
 Obrigado!
