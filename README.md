@@ -47,6 +47,8 @@ Compile a estilização do projeto
 
 
 ## Importante
-Para minha segurança, escondi minha chave da API, para rodar com a sua chave, você deverá seguir os passos em [app.js](https://github.com/devsantosbruno/trip-calculation/blob/develop/src/js/app.js).
+Por questões de segurança, a chave da API está oculta. Para utilizar a sua chave, você deverá seguir os passos em [app.js](https://github.com/devsantosbruno/trip-calculation/blob/develop/src/js/app.js).
+
 ## Contribuição
-Qualquer contribuição será muito bem-vinda. Inclusive você pode me ajudar a criptografar a chave API, assim facilitará o uso do projeto sem muitos passos! Obrigado!
+Qualquer contribuição será muito bem-vinda, inclusive você poderá me ajudar criptografando a chave API, facilitando o uso do projeto.
+Obrigado!
