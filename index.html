@@ -10,8 +10,28 @@
       rel="stylesheet"
       href="node_modules/@fortawesome/fontawesome-free/css/all.css"
     />
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
   </head>
   <body>
+    <div id="map"></div>
     <script src="dist/app.js"></script>
+    <!-- <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBf2xA8rdCA6EpxWAEnE7HApGVm1IGBWzg&callback=initMap"
+      async
+      defer
+    ></script> -->
   </body>
 </html>
