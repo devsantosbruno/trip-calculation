@@ -12,7 +12,11 @@ Destinado à pessoas que amam viajar e precisam calcular o gasto do seu ponto de
 
 •   Sass
 
+•   Bootstrap
+
 •   JavaScript
+
+•   Jquery
 
 •   Google API
 
