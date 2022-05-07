@@ -3,6 +3,8 @@
 # Calculadora de viagem
 
 Destinado à pessoas que amam viajar e precisam calcular o gasto do seu ponto de origem ao destino. No momento, o projeto apenas marca no mapa, mas o objetivo é calcular o gasto de viagem, sendo eles, gasolina e pedágios.
+
+
 ## Tecnologias utilizadas
 
 
@@ -13,6 +15,8 @@ Destinado à pessoas que amam viajar e precisam calcular o gasto do seu ponto de
 •   JavaScript
 
 •   Google API
+
+
 ## Rodar local
 
 Clone o projeto
